@@ -1,0 +1,70 @@
+.App {
+  padding: 4rem;
+}
+.App__card {
+  width: 30%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.App__header-title {
+  text-align: center;
+  color: #333;
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.App__container {
+  display: flex;
+  padding: 0 1rem;
+}
+.App__container > *{
+  margin: 2.4rem;
+  transition: all 2s;
+}
+
+.App__sidebar {
+  flex-basis: 25%;
+  padding: 0 1rem;
+}
+
+.App__routes {
+  flex-grow: 1;
+}
+
+.container {
+  display: flex;
+}
+
+.web-components {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.web-components .card {
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 2.4rem;
+  background-image: linear-gradient(to right bottom, blueviolet, rgb(170, 88, 247));
+  color: ghostwhite;
+  font-size: 2.1rem;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.2rem 1rem #949494;
+}
+
+
+
+

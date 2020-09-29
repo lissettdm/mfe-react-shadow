@@ -1,0 +1,15 @@
+:host {
+  all: initial;
+}
+.card {
+  background-image: linear-gradient(to right bottom, #f74eda, #e70c9e);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 12rem;
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.2rem 1rem #949494;
+  padding: 1rem;
+  text-align: center;
+}
